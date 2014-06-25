@@ -1,5 +1,5 @@
 {
-  "name": "adapt-cli",
+  "name": "cgkineo-cli",
   "version": "0.0.14",
   "description": "Command line tools for Adapt",
   "main": "./lib/cli.js",
@@ -36,9 +36,9 @@
     "test": "grunt test"
   },
   "author": "",
-  "repository": "http://github.com/cajones/adapt-cli",
+  "repository": "http://github.com/oliverfoster/cgkineo-cli",
   "license": "GPLv3",
   "bin": {
-    "adapt": "./bin/adapt"
+    "cgkineo": "./bin/cgkineo"
   }
 }
