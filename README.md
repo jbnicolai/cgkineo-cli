@@ -64,7 +64,7 @@ Installed plugins are saved to `adapt.json`.
 The Plugin Registry
 -------------------
 
-The plugin system is powered by [Bower](http://bower.io/). Each plugin should be a valid bower package and they should be registered in the registry.json file in the adapt_framework root.
+The plugin system is powered by [Bower](http://bower.io/). Each plugin should be a valid bower package and they should be registered in the registry.json file contained in the adapt_framework root folder.
 
 registry.json
 
