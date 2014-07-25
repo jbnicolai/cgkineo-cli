@@ -1,6 +1,6 @@
 {
   "name": "cgkineo-cli",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Command line tools for Adapt",
   "main": "./lib/cli.js",
   "directories": {
@@ -36,7 +36,7 @@
     "test": "grunt test"
   },
   "author": "",
-  "repository": "http://github.com/oliverfoster/cgkineo-cli",
+  "repository": "http://github.com/cgkineo/cgkineo-cli",
   "license": "GPLv3",
   "bin": {
     "cgkineo": "./bin/cgkineo"
