@@ -41,7 +41,9 @@ This will download the Adapt framework and create an new course in the directory
 Additionally you can install a specific version of a plugin.
 
     cgkineo install {name of plugin}#{version}
-
+  
+The default version is {name of plugin}#master  
+  
 Anywhere that you are required to provide a name of a plugin it can be either fully qualified with 'adapt-' or optionally you can omit the prefix an just use the plugin name.
 
 Therefore these commands are equivalent:
