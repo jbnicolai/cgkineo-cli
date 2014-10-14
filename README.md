@@ -10,14 +10,14 @@ To install the CGKineo CLI, first be sure to install [NodeJS](http://nodejs.org)
 
 
         npm install -g cgkineo-cli
-
+        
 
 Usage
 -----
 
 ##### Creating an Adapt course
 
-    cgkineo create {type} {path} [{branch}]
+    cgkineo create course {path}
 
 type - What to create. Only the value "course" is currently supported. 
 path - The directory of the new course.
@@ -25,9 +25,36 @@ branch - Optional - The branch of the framework to be downlaoded.
 
 For example...
 
-    cgkineo create course "My Course"
+    cgkineo create course "dev"
 
-This will download the Adapt framework and create an new course in the directory "My Course", in your current directory.
+This will download the Adapt framework and create an new course in the directory "dev", in your current directory.
+
+
+Troubleshooting
+---------------
+
+##### Sublime Text vs NPM
+  
+Occasionally npm will throw errors about not being able to access certain directories. It is therefore recommended to close the text editor before running this create course instruction.  
+
+##### No components installed as default - No npm install or cgkineo install was ran
+  
+Occasionally only the framework is installed and no node_modules, src/extensions, src/menu or src/components folder is created. If this is the case, please:  
+  
+cgkineo create course "dev"  
+cd dev/  
+npm install  
+cgkineo install  
+  
+This issue is due to be fixed.
+
+##### Others
+
+Please see issues section or come talk to Ollie @ oliver.foster@kineo.com  
+
+
+Usage Continued
+---------------
 
 ##### Searching for an Adapt plugin.
 
