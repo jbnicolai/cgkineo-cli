@@ -101,7 +101,7 @@ registry.json
 [
   {
     "name": "plugin-name",
-    "url": "git://url"
+    "url": "https://url"
   }
 ]
 ```
