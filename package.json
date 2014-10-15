@@ -1,6 +1,6 @@
 {
   "name": "cgkineo-cli",
-  "version": "0.0.35",
+  "version": "0.0.36",
   "description": "Command line tools for Adapt",
   "main": "./lib/cli.js",
   "directories": {
