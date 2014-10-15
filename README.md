@@ -18,11 +18,15 @@ Usage
 ##### Creating an Adapt course
 
     cgkineo create course {path}
+    
+    cgkineo create course  
+    
+    -or-  
 
     cgkineo create course "dev"  
 
-type - What to create. course
-path - The directory of the new course.
+type - What to create. course  
+path - The directory of the new course.  
 branch - Optional - The branch of the framework to be downloaded.
 
 For example...
