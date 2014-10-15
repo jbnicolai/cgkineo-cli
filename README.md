@@ -19,13 +19,14 @@ Usage
 
     cgkineo create course {path}
 
-type - What to create. Only the value "course" is currently supported. 
+    cgkineo create course "dev"  
+
+type - What to create. course
 path - The directory of the new course.
-branch - Optional - The branch of the framework to be downlaoded.
+branch - Optional - The branch of the framework to be downloaded.
 
 For example...
 
-    cgkineo create course "dev"
 
 This will download the Adapt framework and create an new course in the directory "dev", in your current directory.
 
@@ -90,6 +91,20 @@ Installed plugins are saved to `adapt.json`.
     cgkineo uninstall {name of plugin}
 
 
+##### Creating a plugin
+
+    cgkineo create {type} 
+    
+type - What to create. component/extension/menu/theme
+
+For example...
+
+    cgkineo create component
+
+This will download the component template into your src/components/ folder.
+
+
+
 The Plugin Registry
 -------------------
 
@@ -106,4 +121,8 @@ registry.json
 ]
 ```
 
-See [Developing plugins](https://github.com/adaptlearning/adapt_framework/wiki/Developing-plugins) for more information on defining your plugins package.
+See [Developing plugins](https://github.com/adaptlearning/adapt_framework/wiki/Developing-plugins) for more information on defining your plugins package.  
+See [Component Template](https://github.com/cgkineo/adapt-template-component)  
+See [Extension Template](https://github.com/cgkineo/adapt-template-extension)  
+
+Note: 2014-10-08 Ollie - menu and theme templates need to be created and integrated  
